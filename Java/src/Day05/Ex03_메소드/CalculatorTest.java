@@ -11,9 +11,9 @@ public class CalculatorTest {
 	Calculator calculator = new Calculator();
 	
 	Scanner sc = new Scanner(System.in);
-	System.out.println("a : ");
+	System.out.print("a : ");
 	int a = sc.nextInt();
-	System.out.println("b : ");
+	System.out.print("b : ");
 	int b = sc.nextInt();
 	
 	// 덤셈 메소드 호출
