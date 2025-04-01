@@ -9,7 +9,7 @@ package Day05.Ex07_캡슐화;
  */
 public class Account {
 
-	private int deposit;
+	private int deposit; // 변수 선언
 	private String depositor;
 	private String depoNumber;
 	private String bank;

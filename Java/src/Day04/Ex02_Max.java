@@ -26,20 +26,20 @@ public class Ex02_Max {
 		
 		
 		   Scanner sc = new Scanner(System.in);
-		   int N = sc.nextInt();
-		int []arr = new int[N];
+		   int N = sc.nextInt(); 
+		int []arr = new int[N]; //배열 선언 및 생성
           	
             		  
-		 for (int i = 0; i < arr.length; i++) {
-			 arr[i] = sc.nextInt();       
+		 for (int i = 0; i < arr.length; i++) { // 배열 반복
+			 arr[i] = sc.nextInt(); // arr[i] 정수 입력 받기       
 		}
 		 // Integer.MIN_VALUE : -21억xxx :int 의 최솟값
 		 
-         int max = 0;
+         int max = 0; // 변수 선언 및 초기화
          
-         for (int i = 0; i < arr.length; i++) {
-        	 if( max < arr[i])     {
-			     max = arr[i];
+         for (int i = 0; i < arr.length; i++) { 
+        	 if( max < arr[i])     { // arr[i]가 max보다 크다면 
+			     max = arr[i];       //  arr[i]를 max에 대입
         	 }   		 
 		}
 		 

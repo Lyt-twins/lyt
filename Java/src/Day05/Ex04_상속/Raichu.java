@@ -1,18 +1,18 @@
 package Day05.Ex04_상속;
 
-//상속
+//상속 : 부모 클래스의 변수를 이어 받기
 // -키워드 : 자식클래스 extends 부모클래스
 public class Raichu extends Pikachu{
 
 	//부모 클래스의 생성자를 따라서 생성자 자동완성
 		// : alt + shift + s
-	public Raichu() {
-		super(300, "메가전기");
+	public Raichu() {   // 기본 생성자
+		super(300, "메가전기"); 
 	}
 	public Raichu(int energy) {
 		super(energy, "메가전기");
 	}
-	public Raichu(int energy, String type) {
+	public Raichu(int energy, String type) { // 매개변수 생성자
 		super(energy, type);
 	}
      // 메소드 오버라이딩
@@ -22,8 +22,8 @@ public class Raichu extends Pikachu{
 	// * 어노테이션 : 코드에 특별한 기능 또는 설명을 추가하는 방법
 	// @어노테이션이름 의 형태로 사용한다.
 	
-	@Override
-	public String aAttack() {
+	@Override                  
+	public String aAttack() {  // 메소드 재정의
 		return "백만볼트";
 	}
 	@Override

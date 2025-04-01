@@ -15,11 +15,11 @@ public class Ex06_Arrays {
 		// [][][][]
 		// [][][]
 		
-		int arr[][] = new int[3][];
+		int arr[][] = new int[3][]; // 배열 선언 및 생성
 		// [] -> [][]
 		// [] -> [][][][]
 		// [] -> [][][]
-		arr[0] = new int [2];
+		arr[0] = new int [2]; 
 		arr[1] = new int [4];
 		arr[2] = new int [3];
 		

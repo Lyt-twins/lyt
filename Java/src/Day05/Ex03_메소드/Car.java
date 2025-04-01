@@ -2,8 +2,8 @@ package Day05.Ex03_메소드;
 
 public class Car {
      // 모델명, 속도
-	String model;
-	private int speed;
+	String model;   // 변수 선언
+	private int speed;  // 접근지정자를 private로 설정
 	
 	// 생성자
 	// * alt + shift + s : o
@@ -13,18 +13,12 @@ public class Car {
 	}
 	// - model 매개변수 생성자
 public Car(String model) {
-	this.model = model;
+	this.model = model;  
 }
 	// - 전체 매개변수 생성자
-	public Car(String model, int speed) {
-		this.model = model;
+	public Car(String model, int speed) {  
+		this.model = model; 
 		this.speed = speed;
-	}
-	public String getModel() {
-		return model;
-	}
-	public void setModel(String model) {
-		this.model = model;
 	}
 	
 	// getter & setter
@@ -33,9 +27,18 @@ public Car(String model) {
 		// 게터/세터 이름 : getxxx(), setxxx()
 		// * alt + shift + s : r
 	
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	
 	public int getSpeed() {
 		return speed;
 	}
+	
+	
 	public void setSpeed(int speed) {
 		if( speed < 0 ) {
 			speed = 0;

@@ -3,8 +3,8 @@ package Day05.Ex04_상속;
 public class Jiwoo {
  
     public static void main(String[] args) {
-		Pikachu pikachu = new Pikachu();
-		pikachu.energy = 100;
+		Pikachu pikachu = new Pikachu(); // pikachu 객체 생성
+		pikachu.energy = 100; // 변수 값 지정
 		pikachu.type = "전기";
 		
 		System.out.println("::::: 피카츄 :::::");
@@ -14,8 +14,8 @@ public class Jiwoo {
 		System.out.println("공격B : " + pikachu.bAttack());
 		System.out.println();
 	
-    
-		Pikachu pikachu20 = new Pikachu(150, "진화");
+         // pikachu20 객체 생성 및 초기화
+		Pikachu pikachu20 = new Pikachu(150, "진화"); 
 		
 		System.out.println(":::::  피카츄 (Lv.20) :::::");
 		System.out.println("에너지 : " + pikachu20.energy);
@@ -24,7 +24,7 @@ public class Jiwoo {
 		System.out.println("공격B : " + pikachu20.bAttack());
 		System.out.println();
 		
-		Raichu raichu = new Raichu();
+		Raichu raichu = new Raichu(); // Raichu 객체 생성
 			
 	    System.out.println("::::: 라이츄 (Lv.20) :::::");
 	    System.out.println("에너지 : " + raichu.energy);

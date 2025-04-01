@@ -8,12 +8,12 @@ public class Main {
 		 Person person = new Person();
 		 
 		 // (.) : 접근 연산자
-		 person.name = "김조은";
-		 person.age = 20;
+		 person.name = "김조은"; // person객체의 이름 지정 
+		 person.age = 20;      // 객체의 나이 지정
 		 
 		 System.out.println("이름 : " + person.name);
 		 System.out.println("나이 : " + person.age);
-		 person.eat("보끔당");
-		 person.work("코딩", 12);
+		 person.eat("보끔당");       // eat 메소드 호출
+		 person.work("코딩", 12);  // work 메소드 호출
 	}
 }

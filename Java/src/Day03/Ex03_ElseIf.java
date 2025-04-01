@@ -10,7 +10,7 @@ public class Ex03_ElseIf {
         int score = sc.nextInt();
         char grade = 'F';
         
-        // if
+        
         // 90 점 이상, A
         // 80 점 이상, B
         // 70 점 이상, C

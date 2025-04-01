@@ -27,7 +27,7 @@ public class Ex01_Array {
 		arr[4] = 5;
 		
 		// 배열의 길이 : 배열 요소의 개수 = 배열.length
-		int N = arr.length;
+		int N = arr.length; 
 		System.out.println("배열의 길이 : " + N );
 		
 		// 배열 반복하기

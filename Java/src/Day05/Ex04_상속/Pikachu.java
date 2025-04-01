@@ -15,26 +15,26 @@ public class Pikachu {
 	public String type;
 	
 	// 생성자
-	public Pikachu() {
-		energy = 100;
-		type = "전기";
+	public Pikachu() { //기본 생성자 
+		energy = 100; 
+		type = "전기"; 
 	}
-	public Pikachu(int energy) {
+	public Pikachu(int energy) { // 매개변수1개 있는 생성자
 		//this.energy = energy;
 		this( energy, "전기");
 	}
 	
-	public Pikachu(int energy, String type) {
+	public Pikachu(int energy, String type) { // 매개변수 2개 있는 생성자
 		this.energy = energy;
 		this.type = type;
 	
 	}
 	// 메소드
-    public String aAttack() {
+    public String aAttack() { // aAttack 메소드 지정
     	return "십만볼트";
     	
     }
-    public String bAttack() {
+    public String bAttack() { // bAttack 메소드 지정
     	return "전광석화";
     }
     

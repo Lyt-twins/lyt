@@ -20,7 +20,7 @@ public class Main {
 	     System.out.println();	 
 	
 	 
-	 Student student3 = new Student("윤홍민", 25);
+	 Student student3 = new Student("윤홍민", 25); // student3 객체 생성
 			
 			
 			 System.out.println("::::::학생3 ::::::");

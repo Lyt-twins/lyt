@@ -12,7 +12,7 @@ public class Ex09_String {
 	// 2. 문자열 객체 생성
 	
 	// 문자열 리터럴
-	String a = "Hello";
+	String a = "Hello"; 
 	String b = "Java";
 	String c = "Hello";
 	

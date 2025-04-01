@@ -8,13 +8,14 @@ public class CalculatorTest {
 		
 	
      // 계산기 객체 생성
+    //클래스타입   객체명     new     클래스명 
 	Calculator calculator = new Calculator();
 	
 	Scanner sc = new Scanner(System.in);
-	System.out.print("a : ");
-	int a = sc.nextInt();
-	System.out.print("b : ");
-	int b = sc.nextInt();
+	System.out.print("a : ");    // a : 출력
+	int a = sc.nextInt();        // a 변수 선언
+	System.out.print("b : ");    // b : 출력
+	int b = sc.nextInt();       // b 변수 선언
 	
 	// 덤셈 메소드 호출
 	 int result1 = calculator.plus(a, b);
@@ -47,7 +48,7 @@ public class CalculatorTest {
      // * (리터럴) : %d (정수), %f (실수), %s (문자열)
 	 
 	 
-	 int arr[] = {10,20,30,40,50};
+	 int arr[] = {10,20,30,40,50};   // 변수 선언 및 초기화
 	 System.out.println("합계 : " + calculator.sum(arr));
 	 System.out.println("평균 : " + calculator.avg(arr));
 	 sc.close();
