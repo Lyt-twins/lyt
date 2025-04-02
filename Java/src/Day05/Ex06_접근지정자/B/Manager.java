@@ -4,7 +4,7 @@ public class Manager {
 
 	   public static void main(String[] args) {
 		Student student = new Student();
-		student.defaultSetting();
+		student.defaultSetting(); // defaultSetting 메소드 호출
 		System.out.println("name : " + student.name);
 		// * 접근지정자는 선언한 클래스를 기준으로 적용된다.
 		// 같은 패키지인 Manager 클래스에서 Student 클래스의

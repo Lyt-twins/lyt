@@ -7,7 +7,7 @@ public class Raichu extends Pikachu{
 	//부모 클래스의 생성자를 따라서 생성자 자동완성
 		// : alt + shift + s
 	public Raichu() {   // 기본 생성자
-		super(300, "메가전기"); 
+		super(300, "메가전기"); // super -> 부모클래스의 메소드 호출
 	}
 	public Raichu(int energy) {
 		super(energy, "메가전기");
@@ -23,7 +23,7 @@ public class Raichu extends Pikachu{
 	// @어노테이션이름 의 형태로 사용한다.
 	
 	@Override                  
-	public String aAttack() {  // 메소드 재정의
+	public String aAttack() {  // 메소드 오버 라이딩
 		return "백만볼트";
 	}
 	@Override

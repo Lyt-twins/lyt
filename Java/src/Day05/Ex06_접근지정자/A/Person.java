@@ -44,7 +44,7 @@ public class Person {
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
-	// toString
+	// toString : 반환 된 문자열을 객체의 출력으로 대체해주는 메소드
 	@Override
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + ", height=" + height + ", weight=" + weight + "]";

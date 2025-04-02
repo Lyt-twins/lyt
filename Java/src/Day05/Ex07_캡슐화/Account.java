@@ -28,7 +28,7 @@ public class Account {
 	}
 
 	// getter, setter
-	public int getDeposit() {
+	public int getDeposit() { 
 		return deposit;
 	}
 
