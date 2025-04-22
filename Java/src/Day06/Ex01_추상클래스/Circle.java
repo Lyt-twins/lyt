@@ -1,6 +1,6 @@
 package Day06.Ex01_추상클래스;
 
-public class Circle extends Shape {
+public class Circle extends Shape { // 상속
 
 	double radius;  //  반지름
 	
@@ -12,6 +12,7 @@ public class Circle extends Shape {
 		this.radius = radius;
 	}
 
+	// 추상클래스의 추상메소드를 자식 클래스에서 구현을 해야 한다.
 	@Override
 	double area() { // area 메소드 지정
 		// 원의 넓이 = (원주율) x (반지름) x (반지름)

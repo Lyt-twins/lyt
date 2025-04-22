@@ -2,6 +2,8 @@ package Day05.Ex08_static;
 
 public class StaticMember {
 
+	// static 한번 선언하면 프로그램 종료 할 때까지 사용 가능.
+	
 	// static 변수
 	static int a;
 	static int b;
@@ -12,7 +14,7 @@ public class StaticMember {
 	
 	// static 메소드
 	public static int sum(int x, int y) {
-		int sum = a+b+x+y;
+		int sum = a+b+x+y; // 매개변수+static변수 같이 사용
 	    //	sum += c;
 		// c는 static 변수가 아니고 인스턴스 변수이기 때문에
 		// 객체 생성 시 메모리에 할당되므로

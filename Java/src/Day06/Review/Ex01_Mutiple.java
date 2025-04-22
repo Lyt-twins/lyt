@@ -14,12 +14,12 @@ public class Ex01_Mutiple {
 		// - 3의 배수 X : "3의 배수가 아닙니다."
 		
 		//1. 정수 입력
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
+		Scanner sc = new Scanner(System.in); // 객체 생성
+		int N = sc.nextInt();    // 변수 n 선언 및 정수 입력받는다.
 		
 		//2. 3의 배수인지 판단
-		if( N % 3 == 0) {
-			System.out.println("3의 배수입니다.");
+		if( N % 3 == 0) {  // 조건문
+			System.out.println("3의 배수입니다."); // 실행문
 		}
 		else {
 			System.out.println("3의 배수가 아닙니다.");

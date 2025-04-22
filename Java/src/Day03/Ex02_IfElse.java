@@ -1,7 +1,7 @@
 package Day03;
 
 import java.util.Scanner;
-
+// sdsqd
 /**
  *  입력 받은 값이 홀수인지, 짝수인지 조건문으로 판단하시오.
  * * if( 조건식 ) {  }

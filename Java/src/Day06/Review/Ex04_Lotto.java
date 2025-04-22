@@ -5,8 +5,8 @@ public class Ex04_Lotto {
 	public static void main(String[] args) {
 		
 		// Math.random() : 0.xxxxx ~ 0.9xxxxx 사이의 난수를 반환하는 메소드
-		double random = Math.random();
-		System.out.println(random);
+		double random = Math.random();  // 변수 선언 및 메소드 호출
+		System.out.println(random);  // 실행문 (random값 출력)
 		
 		// 1~6 사이의 정수 :주사위
 		// (int) Math.random() * 10    : 0 ~ 9

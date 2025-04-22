@@ -18,7 +18,7 @@ public class Point {
 	}
 	
 	
-	// toString()
+	// toString() : 반환값을 객체의 출력으로 대체해준다.
 	@Override
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";

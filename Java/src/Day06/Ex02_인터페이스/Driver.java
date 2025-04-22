@@ -1,7 +1,7 @@
 package Day06.Ex02_인터페이스;
 
 public class Driver {
-
+   //인터페이스 :하나의 대상과 다른 대상이 상호작용 할 수 있도록 도와주는 연결 매개체
 	     public static void main(String[] args) {
 	   // 인터페이스를 구현한 클래스 객체를 만드는 법
 	   // - 인터페이스타입 객체명 = new 구현클래스();

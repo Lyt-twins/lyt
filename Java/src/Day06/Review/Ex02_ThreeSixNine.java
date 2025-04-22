@@ -20,7 +20,7 @@ public class Ex02_ThreeSixNine {
 		// A and B --> **
 		// A or B --> *  
 		// 그 외 --> 정수  
-		  for (int i = 1; i <= 100; i++) {
+		  for (int i = 1; i <= 100; i++) { // for 반복문(1.초기식 2.조건식 4.증감식) 3. {실행문}
 		   // i : 1~100 
 		   // ex) i : 1	  
 		   // 십의 자리수 : 해당수(i) / 10	  
@@ -30,12 +30,12 @@ public class Ex02_ThreeSixNine {
 			  
 			//  boolean ten369 = (ten !=0 && ten % 3 == 0);
 			//  boolean one369 = (ten !=0 && ten % 3 == 0);
-			  boolean ten369 = (ten == 3 || ten == 6 || ten ==9);
+			  boolean ten369 = (ten == 3 || ten == 6 || ten ==9);  // boolean 타입 변수 선언
 			  boolean one369 = (one == 3 || one == 6 || one ==9);
 			  
-			  if ( ten369 & one369 )  
+			  if ( ten369 & one369 ) // 조건문 if( 조건 ) { 실행문 } , & 둘다만족  
 			System.out.println("**");
-			  else if( ten369 || one369)		  
+			  else if( ten369 || one369)      // or 둘중에 하나만 만족		  
 					  System.out.println("*");
 			  else
 				  System.out.println(i);

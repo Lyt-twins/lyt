@@ -39,13 +39,13 @@ import java.util.Scanner;
 public class Ex03_화폐매수 {
 
 	  public static void main(String[] args) {
-         Scanner sc = new Scanner(System.in);
-         System.out.println("구매비 : ");
+         Scanner sc = new Scanner(System.in); // 객체 생성
+         System.out.println("구매비 : "); // 실행문
          int input = sc.nextInt();         // 입력금액
 		 int money = 50000;                // 화폐단위
 		 int count = 0;                    // 화폐매수
 		boolean sw = true; 
-		 while( money >= 1 )  {
+		 while( money >= 1 )  { // 반복문
 			 // 화폐매수 = (입력금액) / (화폐단위)
 			 count = input / money;
 			 System.out.println(money + "\t\t : " + count + "개");
